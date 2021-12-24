@@ -4,6 +4,7 @@
   "description": "Web application for practicing restful api",
   "main": "index.js",
   "scripts": {
+    "start": "node api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/AshishChoudhary332/webApp#readme",
   "dependencies": {
     "express": "^4.17.2",
-    "mongoose": "^6.1.3"
+    "mongoose": "^6.1.3",
+    "nodeman": "^1.1.2"
   }
 }
